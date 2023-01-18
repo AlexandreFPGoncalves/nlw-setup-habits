@@ -8,14 +8,13 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -39,8 +38,6 @@
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
   </p>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -68,9 +65,8 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
@@ -78,9 +74,10 @@
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
 Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+
+-   Your time should be focused on creating something amazing. A project that solves a problem and helps others
+-   You shouldn't be doing the same tasks over and over like creating a README from scratch
+-   You should implement DRY principles to the rest of your life :smile:
 
 Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
 
@@ -88,26 +85,23 @@ Use the `BLANK_README.md` to get started.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ### Built With
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+-   [![Next][next.js]][next-url]
+-   [![React][react.js]][react-url]
+-   [![Vue][vue.js]][vue-url]
+-   [![Angular][angular.io]][angular-url]
+-   [![Svelte][svelte.dev]][svelte-url]
+-   [![Laravel][laravel.com]][laravel-url]
+-   [![Bootstrap][bootstrap.com]][bootstrap-url]
+-   [![JQuery][jquery.com]][jquery-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
@@ -117,39 +111,40 @@ To get a local copy up and running follow these simple example steps.
 
 This is an example of how to list things you need to use the software and how to install them.
 
-* For **Node** Either install version 18.13.0 (current LTS) or use [nvm](https://www.freecodecamp.org/news/nvm-for-windows-how-to-download-and-install-node-version-manager-in-windows-10/#howtodownloadandinstallnodeversionmanagerinwindows10)
-  ```powershell
-  nvm install 18.13.0
-  nvm use 18.13.0
-  ```
+-   For **Node** Either install version 18.13.0 (current LTS) or use [nvm](https://www.freecodecamp.org/news/nvm-for-windows-how-to-download-and-install-node-version-manager-in-windows-10/#howtodownloadandinstallnodeversionmanagerinwindows10)
 
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+    ```powershell
+    nvm install 18.13.0
+    nvm use 18.13.0
+    ```
+
+-   npm
+    ```sh
+    npm install npm@latest -g
+    ```
+
 ### Installation
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
+    ```sh
+    git clone https://github.com/your_username_/Project-Name.git
+    ```
 3. Install NPM packages
-   ```sh
-   npm install
-   ```
+    ```sh
+    npm install
+    ```
 4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+    ```js
+    const API_KEY = 'ENTER YOUR API';
+    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- USAGE EXAMPLES -->
+
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
@@ -158,53 +153,160 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- ROADMAP -->
+
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+-   [x] Add Changelog
+-   [x] Add back to top links
+-   [ ] Add Additional Templates w/ Examples
+-   [ ] Add "components" document to easily copy & paste sections of the readme
+-   [ ] Multi-language Support
+    -   [ ] Chinese
+    -   [ ] Spanish
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+
+## Initial Backend Configuration:
 
 1.Started creating my project folder and inside it a server folder.
 2.Inside the server folder, let's start creating our project by running the "npm init -y". This will create a package.json folder where it holds some important information regarding the project as for dependencies per example.
 3.Install the fastify package by running the "npm i fastify"
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 4. Create a server/src folder and inside of it, create a server.ts file
 5. Install typescript as a dev dependency
 6. Run the command "npx tsc --init" to create the tsconfig.json file.
 7. Install the tsx package by running npm i tsx -D
-<!-- Learned knowledge -->
-## Learned knowledge
+8. inside server/package.json create a script so that it runs the server using the tsx package, pass the keyword "watch" so that every time the file is changed it reruns the script.
+
+9.Inside the server.ts start creating our server initial structure using fastify, it is similar to express.
+
+```js
+//Back-end API RESTful
+import Fastify from 'fastify';
+
+const app = Fastify();
+
+// HTTP Methods: Get, Post, Put, Patch, Delete
+
+app.get('/', () => {
+	return 'Hello World';
+});
+
+app.listen({
+	port: 8888,
+});
+```
+
+10.Installing and Setting up Prisma, start by running "npm i -D prisma" and "npm i @prisma/client"
+11.Run the following command "npx prisma init --datasource-provider SQLite", this will make so our database will be from the type SQLite, which will create a local database file.
+12.After you set up your [Prisma Extension](https://marketplace.visualstudio.com/items?itemName=Prisma.prisma), Inside server/prisma/schema.prisma create a model, which is a general name for tables or collections.
+
+```prisma
+model Habit {
+  //this line of code says that my table has an ID which is the primary key of the db and will also initialize it with an unique id.
+    id         String @id @default(uuid())
+    Title      String
+    created_at String
+
+    @@map("habits")
+}
+```
+
+13.Once the structure is created run the command "npx prisma migrate dev" which will read the schema file and see any changes and automatically create a sql file that will change my database, these files are called migrations
+14.By running the command "npx prisma studio" we can visualize and create entries on our DB.
+15.Back to our /server/server.ts we can now access our database and created tables
+
+```ts
+import { PrismaClient } from '@prisma/client';
+const prisma = new PrismaClient();
+
+app.get('/', async () => {
+	const habits = await prisma.habit.findMany();
+	return habits;
+});
+//output: [{"id":"797b51f4-b215-40e3-9f52-93a39b680960","title":"Drink 3L of Water","created_at":"2023-01-18T00:00:00.000Z"}]
+```
+
+16.Configuration of CORS by installing the @fastify/cors package and back on the server/server.js we have to register our cors.
+
+```ts
+import cors from '@fastify/cors';
+
+app.register(cors);
+```
+
+## Initial Frontend Configuration:
+
+1.Run the command "npm create vite@latest", let it install any dependencies, name your project and choose Typescript.
+2.Navigate inside ./web and install the dependencies with the "npm i" command
+3.On the ./src/tsconfig.json inside the compilerOptions add the following lines for direct paths.
+
+```json
+"baseUrl": "./src",
+		"paths": {
+			"@components": ["components"]
+		}
+```
+
+4.Now we have to install a styling library run the command "npm install -D tailwindcss postcss autoprefixer"
+5.Run the command "npx tailwindcss init -p" this command will create tailwindcss and postcss configuration file.
+6.Create ./src/styles and inside a global.css, inside it, while having the postcss and tailwindcss extension installed add the following lines
+
+```ts
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+```
+
+7.Finally inside our tailwind.config.cjs we have to configure it so that our files have permission to read tailwind styles.
+
+```ts
+module.exports = {
+	content: ['./src/**/*.tsx', '.index.html'],
+	theme: {
+		extend: {},
+	},
+	plugins: [],
+};
+```
+
+6.  7.  8.
+
+<!-- Knowledge -->
+
+## Knowledge
 
 ### Node
 
 Node allows us to use Javascript to create backend operations.
 Node is nothing less than the V8 engine from Google Chrome, running outside of Google Chrome.
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+### Tsx
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+The [tsx package](https://www.npmjs.com/package/tsx) allows us to read Typescript code without any file conversion, it is advised to create a script on the /package.json file to run the tsx .. command.
 
-Started creating my project folder and inside it a server folder.
+### Http Methods
 
+Get, Post, Put, Patch, Delete
+
+### [Prisma and ORM](https://www.prisma.io)
+
+by running npx prisma studio an interface with our db will be displayed.
+
+### [Vite](https://vitejs.dev)
+
+### [tailwindcss]()
+
+### [postcss]()
+
+### [autoprefixer]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Used Packages and Libraries -->
+
 ## Used Packages and Libraries
 
 [fastify](https://www.npmjs.com/package/fastify) - An efficient server implies a lower cost of the infrastructure, a better responsiveness under load and happy users. How can you efficiently handle the resources of your server, knowing that you are serving the highest number of requests as possible, without sacrificing security validations and handy development?
@@ -214,8 +316,8 @@ Started creating my project folder and inside it a server folder.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -231,18 +333,16 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- CONTACT -->
+
 ## Contact
 
 Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
@@ -251,28 +351,26 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- ACKNOWLEDGMENTS -->
+
 ## Acknowledgments
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+-   [Choose an Open Source License](https://choosealicense.com)
+-   [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+-   [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
+-   [Malven's Grid Cheatsheet](https://grid.malven.co/)
+-   [Img Shields](https://shields.io)
+-   [GitHub Pages](https://pages.github.com)
+-   [Font Awesome](https://fontawesome.com)
+-   [React Icons](https://react-icons.github.io/react-icons/search)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
 [contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
@@ -286,19 +384,19 @@ Use this space to list resources you find helpful and would like to give credit 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+[next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[next-url]: https://nextjs.org/
+[react.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[react-url]: https://reactjs.org/
+[vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
+[vue-url]: https://vuejs.org/
+[angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
+[angular-url]: https://angular.io/
+[svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
+[svelte-url]: https://svelte.dev/
+[laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
+[laravel-url]: https://laravel.com
+[bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[bootstrap-url]: https://getbootstrap.com
+[jquery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[jquery-url]: https://jquery.com
