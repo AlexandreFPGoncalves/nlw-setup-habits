@@ -1,104 +1,46 @@
 <a name="readme-top"></a>
 
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 <!-- PROJECT LOGO -->
-<br />
 <div align="center">
+  <h3 align="center">NLW SETUP - Ignite - Habits (i)</h3>
+
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/readmeLogo.png" alt="Logo" width="50%" height="50%">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
-
   <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
+    <b>Track habits with this full stack web and mobile application</b>
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/AlexandreFPGoncalves/nlw-setup-habits/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/AlexandreFPGoncalves/nlw-setup-habits/issues">Request Feature</a>
   </p>
 </div>
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
 
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+This project idea as well as it's design was provided by [@RocketSeat](https://github.com/Rocketseat). It's a limited time free project from their Ignite Trail.
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+<b>Main features:</b>
 
-Here's why:
+-
+-
+-
 
--   Your time should be focused on creating something amazing. A project that solves a problem and helps others
--   You shouldn't be doing the same tasks over and over like creating a README from scratch
--   You should implement DRY principles to the rest of your life :smile:
+<b>Working Devices:</b>
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+-   Desktop
+-   Mobile (Android or IOS)
 
 ### Built With
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
--   [![Next][next.js]][next-url]
--   [![React][react.js]][react-url]
--   [![Vue][vue.js]][vue-url]
--   [![Angular][angular.io]][angular-url]
--   [![Svelte][svelte.dev]][svelte-url]
--   [![Laravel][laravel.com]][laravel-url]
--   [![Bootstrap][bootstrap.com]][bootstrap-url]
--   [![JQuery][jquery.com]][jquery-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+[![Next][next.js]][next-url] [![React][react.js]][react-url] [![Vue][vue.js]][vue-url] [![Angular][angular.io]][angular-url] [![Svelte][svelte.dev]][svelte-url] [![Laravel][laravel.com]][laravel-url] [![Bootstrap][bootstrap.com]][bootstrap-url] [![JQuery][jquery.com]][jquery-url]
 
 <!-- GETTING STARTED -->
 
@@ -109,21 +51,19 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-
--   For **Node** Either install version 18.13.0 (current LTS) or use [nvm](https://www.freecodecamp.org/news/nvm-for-windows-how-to-download-and-install-node-version-manager-in-windows-10/#howtodownloadandinstallnodeversionmanagerinwindows10)
+-   For <b>Node</b> Either install version 18.13.0 (current LTS) or use [Node Version Manager](https://www.freecodecamp.org/news/nvm-for-windows-how-to-download-and-install-node-version-manager-in-windows-10/#howtodownloadandinstallnodeversionmanagerinwindows10).
 
     ```powershell
     nvm install 18.13.0
     nvm use 18.13.0
     ```
 
--   npm
+-   Install the latest version of <b>npm</b>.
     ```sh
     npm install npm@latest -g
     ```
 
-### Installation
+### Installation (not Finished)
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
@@ -143,53 +83,42 @@ _Below is an example of how you can instruct your audience on installing and set
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- USAGE EXAMPLES -->
-
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- ROADMAP -->
 
 ## Roadmap
 
--   [x] Add Changelog
--   [x] Add back to top links
--   [ ] Add Additional Templates w/ Examples
--   [ ] Add "components" document to easily copy & paste sections of the readme
--   [ ] Multi-language Support
-    -   [ ] Chinese
-    -   [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+-   [x] Initial Backend Structure
+-   [x] Initial Web Frontend Structure
+-   [ ] Initial Mobile Frontend Structure
 
 ## Initial Backend Configuration:
 
-1.Started creating my project folder and inside it a server folder.
-2.Inside the server folder, let's start creating our project by running the "npm init -y". This will create a package.json folder where it holds some important information regarding the project as for dependencies per example.
-3.Install the fastify package by running the "npm i fastify"
+1.  Start creating the <b>root project folder</b> and inside it a <b>./server folder</b>.
+2.  Inside <b>./server</b>, initialize the project by running the command <b>`npm init -y`</b>. This line will create the <b>./server/package.json</b> file.
+3.  Install the package [Fastify](https://www.npmjs.com/package/fastify) with the command <b>`npm i fastify`</b>.
+4.  Create the following folder and file <b>`./server/src/server.ts`</b>.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-4. Create a server/src folder and inside of it, create a server.ts file
-5. Install typescript as a dev dependency
-6. Run the command "npx tsc --init" to create the tsconfig.json file.
-7. Install the tsx package by running npm i tsx -D
-8. inside server/package.json create a script so that it runs the server using the tsx package, pass the keyword "watch" so that every time the file is changed it reruns the script.
+5.  Install [Typescript](https://www.npmjs.com/package/typescript) as a dev dependency with <b>`npm i -D typescript`</b>.
+6.  Create the <b>./server/tsconfig.json</b> file by running <b>`npx tsc --init`</b>.
+7.  Install [Tsx](https://www.npmjs.com/package/tsx) as a dev dependency by running <b>`npm i tsx -D`</b>.
+8.  Inside the file <b>./server/package.json</b> create a script to start the server.
 
-9.Inside the server.ts start creating our server initial structure using fastify, it is similar to express.
+```json
+//The keyword watch inside the script will re-run the script every time the file is changed.
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+```
 
-```js
+9.  inside <b>./server/src/server.ts</b> create the servers initial structure using [Fastify](https://www.npmjs.com/package/fastify), it is similar to express.
+
+```ts
 //Back-end API RESTful
 import Fastify from 'fastify';
 
 const app = Fastify();
 
 // HTTP Methods: Get, Post, Put, Patch, Delete
-
 app.get('/', () => {
 	return 'Hello World';
 });
@@ -199,24 +128,25 @@ app.listen({
 });
 ```
 
-10.Installing and Setting up Prisma, start by running "npm i -D prisma" and "npm i @prisma/client"
-11.Run the following command "npx prisma init --datasource-provider SQLite", this will make so our database will be from the type SQLite, which will create a local database file.
-12.After you set up your [Prisma Extension](https://marketplace.visualstudio.com/items?itemName=Prisma.prisma), Inside server/prisma/schema.prisma create a model, which is a general name for tables or collections.
+10. Installing [Prisma](https://www.prisma.io) as a dev dependency with the command <b>`npm i -D prisma`</b>.
+11. Install the [@Prisma/client](https://www.prisma.io/docs/concepts/components/prisma-client) with the command <b>`npm i @prisma/client`</b>.
+12. Run the following command <b>`npx prisma init --datasource-provider SQLite`</b>, this will make so our database will be from the type SQLite, which will create a local database file.
+13. Make sure you have setup [Prisma's Extension](https://marketplace.visualstudio.com/items?itemName=Prisma.prisma), Inside <b>./server/prisma/schema.prisma</b> create a model, which is a general name for tables or collections.
 
-```prisma
+```ts
 model Habit {
   //this line of code says that my table has an ID which is the primary key of the db and will also initialize it with an unique id.
     id         String @id @default(uuid())
     Title      String
-    created_at String
+    created_at DateTime
 
     @@map("habits")
 }
 ```
 
-13.Once the structure is created run the command "npx prisma migrate dev" which will read the schema file and see any changes and automatically create a sql file that will change my database, these files are called migrations
-14.By running the command "npx prisma studio" we can visualize and create entries on our DB.
-15.Back to our /server/server.ts we can now access our database and created tables
+14. Once the structure is created run the command <b>`npx prisma migrate dev`</b> which will read the schema file and see any changes and automatically create a sql file that will change the database, <b>these files are called migrations</b>.
+15. By running the command <b>`npx prisma studio`</b> we can visualize and create entries on the database.
+16. Back to our <b>./server/src/server.ts</b> we can now access our database and created tables.
 
 ```ts
 import { PrismaClient } from '@prisma/client';
@@ -229,30 +159,33 @@ app.get('/', async () => {
 //output: [{"id":"797b51f4-b215-40e3-9f52-93a39b680960","title":"Drink 3L of Water","created_at":"2023-01-18T00:00:00.000Z"}]
 ```
 
-16.Configuration of CORS by installing the @fastify/cors package and back on the server/server.js we have to register our cors.
+17. Configuration of CORS by installing the @fastify/cors package and back on the server/server.js we have to register our cors.
+
+18. Install the [@Fastify/cors](https://github.com/fastify/fastify-cors) package with <b>`npm i @fastify/cors`</b>.
+19. Inside <b>./server/src/server.ts</b> register the cors.
 
 ```ts
 import cors from '@fastify/cors';
-
 app.register(cors);
 ```
 
-## Initial Frontend Configuration:
+## Initial Web Frontend Configuration:
 
-1.Run the command "npm create vite@latest", let it install any dependencies, name your project and choose Typescript.
-2.Navigate inside ./web and install the dependencies with the "npm i" command
-3.On the ./src/tsconfig.json inside the compilerOptions add the following lines for direct paths.
+1.  Run the command <b>`npm create vite@latest`</b>, let it install any dependencies, name your project <b>"web"</b> and select [Typescript](https://www.npmjs.com/package/typescript).
+2.  Navigate inside <b>./web</b> and install the dependencies with the <b>`npm i`</b> command.
+3.  On the <b>./web/tsconfig.json</b> file, inside <b>compilerOptions</b> add the following lines for direct paths.
 
 ```json
 "baseUrl": "./src",
-		"paths": {
-			"@components": ["components"]
-		}
+"paths": {
+	  "@components": ["components"]
+         }
 ```
 
-4.Now we have to install a styling library run the command "npm install -D tailwindcss postcss autoprefixer"
-5.Run the command "npx tailwindcss init -p" this command will create tailwindcss and postcss configuration file.
-6.Create ./src/styles and inside a global.css, inside it, while having the postcss and tailwindcss extension installed add the following lines
+4. Now for the Styling Library, we are going to be using [Tailwindcss](https://tailwindcss.com), install along with [Postcss](https://postcss.org) and [autoprefixer](https://autoprefixer.github.io) as dev dependencies with the command <b>`npm i -D tailwindcss postcss autoprefixer`</b>.
+
+5. To create [Tailwindcss](https://tailwindcss.com) and [Postcss](https://postcss.org) configuration file run <b>`npx tailwindcss init -p`</b>.
+6. Create <b>./web/src/styles/global.css</b> and while having the postcss and tailwindcss extension installed add the following lines to the file.
 
 ```ts
 @tailwind base;
@@ -260,23 +193,15 @@ app.register(cors);
 @tailwind components;
 ```
 
-7.Finally inside our tailwind.config.cjs we have to configure it so that our files have permission to read tailwind styles.
+7.  Inside <b>./web/tailwind.config.cjs</b> configure it so that our files have permission to read tailwind styles.
 
 ```ts
-module.exports = {
-	content: ['./src/**/*.tsx', '.index.html'],
-	theme: {
-		extend: {},
-	},
-	plugins: [],
-};
+module.exports = { content: ['./src/**/*.tsx', '.index.html'] };
 ```
-
-6.  7.  8.
 
 <!-- Knowledge -->
 
-## Knowledge
+## Knowledge (not Finished)
 
 ### Node
 
@@ -307,29 +232,12 @@ by running npx prisma studio an interface with our db will be displayed.
 
 <!-- Used Packages and Libraries -->
 
-## Used Packages and Libraries
+## Used Packages and Libraries (Not Finished)
 
 [fastify](https://www.npmjs.com/package/fastify) - An efficient server implies a lower cost of the infrastructure, a better responsiveness under load and happy users. How can you efficiently handle the resources of your server, knowing that you are serving the highest number of requests as possible, without sacrificing security validations and handy development?
 
 [typescript](https://www.npmjs.com/package/typescript)
 [tsx](https://www.npmjs.com/package/tsx)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -339,34 +247,19 @@ Don't forget to give the project a star! Thanks again!
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- CONTACT -->
 
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Alexandre Gonçalves - [@VioletAlex\_](https://twitter.com/VioletAlex_) - alexandrefpgoncalves@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Project Link: [nlw-setup-habits](https://github.com/AlexandreFPGoncalves?tab=repositories)
 
 <!-- ACKNOWLEDGMENTS -->
 
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
--   [Choose an Open Source License](https://choosealicense.com)
--   [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
--   [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
--   [Malven's Grid Cheatsheet](https://grid.malven.co/)
--   [Img Shields](https://shields.io)
--   [GitHub Pages](https://pages.github.com)
--   [Font Awesome](https://fontawesome.com)
--   [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+> Thanks to [@RocketSeat](https://www.youtube.com/@rocketseat) for providing the community with such challenge.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
