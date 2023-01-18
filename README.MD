@@ -167,6 +167,8 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
+## Initial Backend Configuration:
+
 1.Started creating my project folder and inside it a server folder.
 2.Inside the server folder, let's start creating our project by running the "npm init -y". This will create a package.json folder where it holds some important information regarding the project as for dependencies per example.
 3.Install the fastify package by running the "npm i fastify"
@@ -235,9 +237,46 @@ import cors from '@fastify/cors';
 app.register(cors);
 ```
 
-<!-- Learned knowledge -->
+## Initial Frontend Configuration:
 
-## Learned Knowledge
+1.Run the command "npm create vite@latest", let it install any dependencies, name your project and choose Typescript.
+2.Navigate inside ./web and install the dependencies with the "npm i" command
+3.On the ./src/tsconfig.json inside the compilerOptions add the following lines for direct paths.
+
+```json
+"baseUrl": "./src",
+		"paths": {
+			"@components": ["components"]
+		}
+```
+
+4.Now we have to install a styling library run the command "npm install -D tailwindcss postcss autoprefixer"
+5.Run the command "npx tailwindcss init -p" this command will create tailwindcss and postcss configuration file.
+6.Create ./src/styles and inside a global.css, inside it, while having the postcss and tailwindcss extension installed add the following lines
+
+```ts
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+```
+
+7.Finally inside our tailwind.config.cjs we have to configure it so that our files have permission to read tailwind styles.
+
+```ts
+module.exports = {
+	content: ['./src/**/*.tsx', '.index.html'],
+	theme: {
+		extend: {},
+	},
+	plugins: [],
+};
+```
+
+6.  7.  8.
+
+<!-- Knowledge -->
+
+## Knowledge
 
 ### Node
 
@@ -255,6 +294,14 @@ Get, Post, Put, Patch, Delete
 ### [Prisma and ORM](https://www.prisma.io)
 
 by running npx prisma studio an interface with our db will be displayed.
+
+### [Vite](https://vitejs.dev)
+
+### [tailwindcss]()
+
+### [postcss]()
+
+### [autoprefixer]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
