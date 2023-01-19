@@ -1,5 +1,5 @@
-import './styles/global.css';
 import { Habit } from './components';
+import './styles/global.css';
 
 function App() {
 	return <Habit completed={5} />;
