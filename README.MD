@@ -177,19 +177,10 @@ app.register(cors);
 
 1.  Run the command <b>`npm create vite@latest`</b>, let it install any dependencies, name your project <b>"web"</b> and select [Typescript](https://www.npmjs.com/package/typescript).
 2.  Navigate inside <b>./web</b> and install the dependencies with the <b>`npm i`</b> command.
-3.  On the <b>./web/tsconfig.json</b> file, inside <b>compilerOptions</b> add the following lines for direct paths.
+3.  Now for the Styling Library, we are going to be using [Tailwindcss](https://tailwindcss.com), install along with [Postcss](https://postcss.org) and [autoprefixer](https://autoprefixer.github.io) as dev dependencies with the command <b>`npm i -D tailwindcss postcss autoprefixer`</b>.
 
-```json
-"baseUrl": "./src",
-"paths": {
-	  "@components": ["components"]
-         }
-```
-
-4. Now for the Styling Library, we are going to be using [Tailwindcss](https://tailwindcss.com), install along with [Postcss](https://postcss.org) and [autoprefixer](https://autoprefixer.github.io) as dev dependencies with the command <b>`npm i -D tailwindcss postcss autoprefixer`</b>.
-
-5. To create [Tailwindcss](https://tailwindcss.com) and [Postcss](https://postcss.org) configuration file run <b>`npx tailwindcss init -p`</b>.
-6. Create <b>./web/src/styles/global.css</b> and while having the postcss and tailwindcss extension installed add the following lines to the file.
+4.  To create [Tailwindcss](https://tailwindcss.com) and [Postcss](https://postcss.org) configuration file run <b>`npx tailwindcss init -p`</b>.
+5.  Create <b>./web/src/styles/global.css</b> and while having the postcss and tailwindcss extension installed add the following lines to the file.
 
 ```ts
 @tailwind base;
@@ -197,7 +188,7 @@ app.register(cors);
 @tailwind components;
 ```
 
-7.  Inside <b>./web/tailwind.config.cjs</b> configure it so that our files have permission to read tailwind styles.
+6.  Inside <b>./web/tailwind.config.cjs</b> configure it so that our files have permission to read tailwind styles.
 
 ```ts
 module.exports = { content: ['./src/**/*.tsx', '.index.html'] };
@@ -226,7 +217,7 @@ import {
 //fontsLoaded will wait for the fonts to load before rending the app.
 const [fontsLoaded] = useFonts({ Inter_400Regular, Inter_600SemiBold, Inter_700Bold, Inter_800ExtraBold });
 if (!fontsLoaded) {
-	return;
+	return <Loading />;
 }
 ```
 
