@@ -91,6 +91,8 @@ _Below is an example of how you can instruct your audience on installing and set
 -   [x] Initial Web Frontend Structure
 -   [ ] Initial Mobile Frontend Structure
 
+<!-- Initial Backend Configuration -->
+
 ## Initial Backend Configuration:
 
 1.  Start creating the <b>root project folder</b> and inside it a <b>./server folder</b>.
@@ -169,6 +171,8 @@ import cors from '@fastify/cors';
 app.register(cors);
 ```
 
+<!-- Initial Web Frontend Configuration -->
+
 ## Initial Web Frontend Configuration:
 
 1.  Run the command <b>`npm create vite@latest`</b>, let it install any dependencies, name your project <b>"web"</b> and select [Typescript](https://www.npmjs.com/package/typescript).
@@ -199,34 +203,66 @@ app.register(cors);
 module.exports = { content: ['./src/**/*.tsx', '.index.html'] };
 ```
 
+<!-- Initial Mobile Configuration -->
+
+## Initial Mobile Configuration
+
+1.  Setup the development environment following this [Guide](https://react-native.rocketseat.dev).
+2.  Run the command <b>`npx create-expo-app mobile --template`, don't forget the <b>--template</b> keyword and to select the <b>Blank (TypeScript)</b> option </b> to create the <b>./mobile</b> folder.
+3.  Run the command <b>`npx expo start`</b> to start your development server and either scan the QRcode or use the metro IP. Passing the <b>--clear</b> flag will create a new bundle from scratch.
+4.  Import already own or create the assets by using the [Expo App Icon & Splash](https://www.figma.com/community/file/1155362909441341285).
+5.  Inside <b>./mobile/app.json</b> change the splash and android objects background color to match the asset you just imported.
+6.  Install a [Custom Font](https://docs.expo.dev/guides/using-custom-fonts/), and inside <b>./mobile/App.tsx</b> import the fonts.
+
+```ts
+import {
+	useFonts,
+	Inter_400Regular,
+	Inter_600SemiBold,
+	Inter_700Bold,
+	Inter_800ExtraBold,
+} from '@expo-google-fonts/inter';
+
+//fontsLoaded will wait for the fonts to load before rending the app.
+const [fontsLoaded] = useFonts({ Inter_400Regular, Inter_600SemiBold, Inter_700Bold, Inter_800ExtraBold });
+if (!fontsLoaded) {
+	return;
+}
+```
+
 <!-- Knowledge -->
 
 ## Knowledge (not Finished)
 
-### Node
+Node
 
 Node allows us to use Javascript to create backend operations.
 Node is nothing less than the V8 engine from Google Chrome, running outside of Google Chrome.
 
-### Tsx
+Tsx
 
 The [tsx package](https://www.npmjs.com/package/tsx) allows us to read Typescript code without any file conversion, it is advised to create a script on the /package.json file to run the tsx .. command.
 
-### Http Methods
+[Http Methods]()
 
 Get, Post, Put, Patch, Delete
 
-### [Prisma and ORM](https://www.prisma.io)
+[Prisma and ORM](https://www.prisma.io)
 
 by running npx prisma studio an interface with our db will be displayed.
 
-### [Vite](https://vitejs.dev)
+[Vite](https://vitejs.dev)
 
-### [tailwindcss]()
+[tailwindcss]()
 
-### [postcss]()
+[postcss]()
 
-### [autoprefixer]()
+[autoprefixer]()
+
+[React Native]()
+
+[Expo](https://docs.expo.dev)
+Build one JavaScript/TypeScript project that runs natively on all your users' devices.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
