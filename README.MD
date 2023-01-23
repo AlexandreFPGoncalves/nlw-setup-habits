@@ -171,6 +171,39 @@ import cors from '@fastify/cors';
 app.register(cors);
 ```
 
+20. To Generate and Create an ER Diagram install the package [Prisma-erd-generator](https://www.npmjs.com/package/prisma-erd-generator) using the command <b>`npm i -D prisma-erd-generator @mermaid-js/mermaid-cli`</b> once the dependencies are installed inside <b>./server/prisma/schema.prisma</b> add the following code lines and run <b>`npx prisma generate`</b>.
+
+```prisma
+generator erd {
+  provider = "prisma-erd-generator"
+}
+```
+
+<img src="images/prismaERD.png" alt="Logo">
+
+21. Create a seed.ts file inside <b>./server/prisma/seed.ts</b> this will be useful to "seed" our database and work with fictional data, for more information check the docs about [Seeding Your Database](https://www.prisma.io/docs/guides/database/seed-database).
+22. Organize Prisma and Routes code inside it's own .ts file, this will be done inside the newly created <b>./server/lib/\*</b> folder.
+23. Run the command <b>[`npm i zod`](https://www.npmjs.com/package/zod)</b> to create backend validations on each route.
+
+```ts
+export async function appRoutes(app: FastifyInstance) {
+	app.post('/habits', async (request) => {
+		const createHabitBody = z.object({
+			title: z.string(),
+			weekDays: z.array(z.number().min(0).max(6)),
+		});
+		const { title, weekDays } = createHabitBody.parse(request.body);
+	});
+}
+```
+
+24. Install the package <b>[dayJs](https://www.npmjs.com/package/dayjs)</b> to easily manipulate dates.
+
+```ts
+import dayjs from 'dayjs';
+const today = dayjs().startOf('day').toDate();
+```
+
 <!-- Initial Web Frontend Configuration -->
 
 ## Initial Web Frontend Configuration:
@@ -254,6 +287,8 @@ by running npx prisma studio an interface with our db will be displayed.
 
 [Expo](https://docs.expo.dev)
 Build one JavaScript/TypeScript project that runs natively on all your users' devices.
+[zod](https://www.npmjs.com/package/zod)
+[Dayjs](https://www.npmjs.com/package/dayjs)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
