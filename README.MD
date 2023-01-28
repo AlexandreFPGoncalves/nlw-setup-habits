@@ -254,7 +254,54 @@ if (!fontsLoaded) {
 }
 ```
 
+7.  Install [NativeWind](https://www.nativewind.dev) using the command <b>`npm i nativewind`</b> and [Tailwindcss](https://tailwindcss.com) as a dev dependency.
+8.  Just like the web run the command `npx tailwindcss init` to create tailwinds configuration file.
+9.  Declare what <b>className</b> means on your project, to do this, create the folder <b>./src/@types</b> and inside a file named <b>app.d.ts</b>. Inside the file type the following line <b>`/// <reference types="nativewind/types" />`</b>
+10. React Native doesn't work with <b>.svg</b> files, to do so you have to install the package [react-native-svg](https://docs.expo.dev/versions/latest/sdk/svg/) followed with the command <b>`npx expo install react-native-svg`</b>.
+11. To use an <b>.svg</b> file as a react native component we need to install the package [react-native-svg-transformer](https://github.com/kristerkari/react-native-svg-transformer) as a dev dependency, using the command <b>`npm i react-native-svg-transformer --save-dev`</b>.
+
+```ts
+const { getDefaultConfig } = require('expo/metro-config');
+
+module.exports = (() => {
+	const config = getDefaultConfig(__dirname);
+
+	const { transformer, resolver } = config;
+
+	config.transformer = {
+		...transformer,
+		babelTransformerPath: require.resolve('react-native-svg-transformer'),
+	};
+	config.resolver = {
+		...resolver,
+		assetExts: resolver.assetExts.filter((ext) => ext !== 'svg'),
+		sourceExts: [...resolver.sourceExts, 'svg'],
+	};
+
+	return config;
+})();
+```
+
+12. To configure it: Inside a <b>./mobile/metro.config.js</b> file and copy the code created for expo inside the docs, now finally inside <b>./mobile/src/types</b> create a <b>svg.d.ts</b> file and copy the code found on the docs for Typescript usage.
+
+```ts
+declare module '*.svg' {
+	import React from 'react';
+	import { SvgProps } from 'react-native-svg';
+	const content: React.FC<SvgProps>;
+	export default content;
+}
+```
+
+13. To use Icons on React Native you may use any known libraries like [phosphor-react](https://www.npmjs.com/package/phosphor-react) but expo as a built in one, just import it inside your files using `import {x} from '@expo/vector-icons'`, you can also check all icons [here](https://oblador.github.io/react-native-vector-icons/).
 <!-- Knowledge -->
+
+14. Install the package <b>[dayJs](https://www.npmjs.com/package/dayjs)</b> to easily manipulate dates.
+
+```ts
+import dayjs from 'dayjs';
+const today = dayjs().startOf('day').toDate();
+```
 
 ## Knowledge (not Finished)
 
@@ -289,6 +336,7 @@ by running npx prisma studio an interface with our db will be displayed.
 Build one JavaScript/TypeScript project that runs natively on all your users' devices.
 [zod](https://www.npmjs.com/package/zod)
 [Dayjs](https://www.npmjs.com/package/dayjs)
+[phosphor-react](https://www.npmjs.com/package/phosphor-react)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
